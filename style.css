@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*overlay div*/
+#overlay {
+  position: absolute;
+  transition: opacity .3s linear;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+}
+
+/*nav bar*/
+nav {
+  display: flex;
+  
+  width: 25vw;
+  height: 6vh;
+  
+  position: fixed;
+  right: 0;
+  margin-right: 2.5vw;
+  background-color: orange;
+}
+nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: calc(100%/3);
+  background-color: yellow;
+}
+nav div:hover {
+  cursor: pointer;
+  background-color: #CDCD00;
+}
+.navDivActive {
+  background-color: #9A9A00 !important;
+}
+
+/*all page settings*/
+.pageContent {
+  margin: 2.5vw;
+  background-color: white;
+}
+
+/*individual page settings*/
+#home {
+  display: none;
+}
+#about {
+  display: none;
+}
+#contact {
+  display: none;
+}
