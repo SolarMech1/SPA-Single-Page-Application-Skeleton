@@ -25,7 +25,6 @@ nav {
   position: fixed;
   right: 0;
   margin-right: 2.5vw;
-  background-color: orange;
 }
 nav div {
   display: flex;
